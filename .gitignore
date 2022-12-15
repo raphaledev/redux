@@ -4,10 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-App.test.js
-logo.svg
-reportWebVitals.js
-setupTests.js
+src/App.test.js
+src/logo.svg
+src/reportWebVitals.js
+src/setupTests.js
 
 # testing
 /coverage
