@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Icon } from 'react-icons-kit';
 import {trash} from 'react-icons-kit/feather/trash'
 import {edit2} from 'react-icons-kit/feather/edit2'
-import { removeTodo, handleCheckbox } from '../redux/todoapp/actions';
+import { removeTodo, handleCheckbox } from '../redux/actions';
 
 export const Task = ({handleEditClick, editFormVisibility}) => {
     const dispatch = useDispatch();

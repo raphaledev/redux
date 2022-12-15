@@ -2,7 +2,7 @@ import {useState} from 'react';
 import { AddTask } from "./components/AddTask";
 import { Task } from "./components/Task";
 import {useDispatch, useSelector} from 'react-redux';
-import {deleteAll} from './redux/todoapp/actions';
+import {deleteAll} from './redux/actions';
 
 function App() {
   const dispatch = useDispatch();
